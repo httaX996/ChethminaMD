@@ -9,7 +9,7 @@
     "restart": "pm2 restart chethminamd"
   },
   "dependencies": {
-    "@whiskeysockets/baileys": "npm:manul-ofc-baileys",
+    "@whiskeysockets/baileys": "npm:asitha-baliyes-new",
     "@adiwajshing/keyed-db": "latest",
     "pino": "^7.0.5",
     "pm2": "^5.2.0",
