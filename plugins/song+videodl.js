@@ -4,7 +4,7 @@ const yts = require('yt-search')
 
 
 cmd({
-    pattern: "song2",
+    pattern: "song",
     desc: "Download songs",
     react: "🎶",
     category: "download",
@@ -18,19 +18,19 @@ const data = search.videos[0];
 const url = data.url
 
 let desc = `
-🎶𝗖𝗞 𝗦𝗢𝗡𝗚 𝗗𝗢𝗪𝗡𝗟𝗢𝗔𝗗𝗘𝗥🎶
+*🎧CK SONG DOWNLOADER🎧*
 
-🔖ᴛɪᴛʟᴇ: *${data.title}*
-⏰ᴅᴜʀᴀᴛɪᴏɴ: *${data.timestamp}*
-📆ᴜᴘʟᴏᴀᴅᴇᴅ: *${data.ago}*
-👀ᴠɪᴇᴡꜱ: *${data.views}*
-🤵🏻ᴀᴜᴛʜᴏʀ: *${data.author.name}*
-🔗ʟɪɴᴋ: *${data.url}*
+*🔖TITLE :* ${data.title}
+*⏰DURATION :* ${data.timestamp}
+*📆UPLOAD ON :* ${data.ago}
+*👀VIEWS :* ${data.views}
+*🧙🏻‍♂️AUTHOR :* ${data.author.name}
+*🔗LINK :* ${data.url}
 
-*Reply This Message With Option*
+*⬇️ꜱᴇʟᴇᴄᴛ ʏᴏᴜ ᴡᴏɴᴛ⬇️*
 
-*1 - Audio With Normal Format*
-*2 - Audio With Document Format*
+*1 |* ❭❭◦ *Download Audio 🎧*
+*2 |* ❭❭◦ *Download Document 📁*
 
 
 > 👨🏻‍💻 ᴍᴀᴅᴇ ʙʏ *ᴄʜᴇᴛʜᴍɪɴᴀ ᴋᴀᴠɪꜱʜᴀɴ*
@@ -89,19 +89,19 @@ const data = search.videos[0];
 const url = data.url
 
 let desc = `
-🎥𝗖𝗞 𝗬𝗧 𝗩𝗜𝗗𝗘𝗢 𝗗𝗢𝗪𝗡𝗟𝗢𝗔𝗗𝗘𝗥🎥
+*🎥CK VIDEO DOWNLOADER🎥*
 
-🔖ᴛɪᴛʟᴇ: *${data.title}*
-⏰ᴅᴜʀᴀᴛɪᴏɴ: *${data.timestamp}*
-📆ᴜᴘʟᴏᴀᴅᴇᴅ: *${data.ago}*
-👀ᴠɪᴇᴡꜱ: *${data.views}*
-🤵🏻ᴀᴜᴛʜᴏʀ: *${data.author.name}*
-🔗ʟɪɴᴋ: *${data.url}*
+*🔖TITLE :* ${data.title}
+*⏰DURATION :* ${data.timestamp}
+*📆UPLOAD ON :* ${data.ago}
+*👀VIEWS :* ${data.views}
+*🧙🏻‍♂️AUTHOR :* ${data.author.name}
+*🔗LINK :* ${data.url}
 
-*Reply This Message With Option*
+*⬇️ꜱᴇʟᴇᴄᴛ ʏᴏᴜ ᴡᴏɴᴛ⬇️*
 
-*1 - Video With Normal Format*
-*2 - Video With Document Format*
+*1 |* ❭❭◦ *Download Video 🎥*
+*2 |* ❭❭◦ *Download Document 📁*
 
 
 > 👨🏻‍💻 ᴍᴀᴅᴇ ʙʏ *ᴄʜᴇᴛʜᴍɪɴᴀ ᴋᴀᴠɪꜱʜᴀɴ*
